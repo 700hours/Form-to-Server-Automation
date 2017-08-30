@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>TEMPLATE</title>
+<!--   123456789 123456789 123456789 123456789 123456789 123456789 123456789  
+                1         2         3         4         5         6         7 -->
+
+<meta name="description" 
+content="">
+
+<meta name="keywords" 
+content="">
+
+<meta name="robots" content="all,index,follow">
+<meta name="revisit-after" content="7 days">
+<link rel="stylesheet" type="text/css" href="forms.css">
+<style>
+.tdr {	text-align:right;}
+</style>
+
+</head>
+<body>
+<form action="store.php" method="post" STYLE="padding:15px 0px 0px 18px;">
+ <table>
+  <tr>
+   <td colspan="3" align="right" STYLE="padding:0px 11px 0px 0px;"><a STYLE="color:#165988; font-weight:bold; font-size:130%;">Server Details</a></td>
+  </tr>
+  <tr>
+   <td colspan="3" align="right" STYLE="padding:0px 11px 6px 0px;"><a STYLE="color:#165988; font-weight:bold; font-size:130%;">...!</a></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Max Players:</td>	
+   <td><input type="text" autofocus required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="players" value="8-255" maxlength="3"></td>
+   <td>&nbsp;<?php echo $message1; ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">World Size:</td>
+   <td><input type="text" required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="worldsize" value="1-3" maxlength="1"></td>
+   <td align="left">&nbsp;<?php echo $message2 ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">World Name:</td>
+   <td><input type="text" required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="worldname" value="" maxlength="16"></td>
+   <td align="left">&nbsp;<?php echo $message3 ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Password:</td>
+   <td><input type="text" autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="password" value="Optional" maxlength="12"></td>
+   <td align="left">&nbsp;<?php echo $message4 ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Server Message:</td>
+   <td><input type="text" autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="motd" value="Limited to 60 chars" maxlength="60"></td>
+   <td align="left">&nbsp;<?php echo $message5 ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Language:</td>
+   <td><input type="text" required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="language" value="1:Eng 2:Ger 3:It 4:Fr 5:Sp" maxlength="1"></td>
+   <td align="left">&nbsp;<?php echo $message6 ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Unique Name:</td>
+   <td><input type="text" required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="id" value="Used as a Server ID" maxlength="14"></td>
+   <td>&nbsp;<?php echo $message7; ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">TShock:</td>	
+   <td><input type="text" required autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="tshock" value="0-1" maxlength="1"></td>
+   <td>&nbsp;<?php echo $message8; ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">TO Forum Name:</td>
+   <td><input type="text" autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="forumid" value="You can provide" maxlength="24"></td>
+   <td>&nbsp;<?php echo $message9; ?></td>
+  </tr>
+  <tr>
+   <td class="tdr" STYLE="color:#165988; font-weight:bold;">Email:</td>
+   <td><input type="text" autocomplete="off" STYLE="color:#136E6B; background-color:#AEAEAE; border-width:1px; border-style:solid; border-color:#0B3861;" name="email" value="one or the other" maxlength="40"></td>
+   <td>&nbsp;<?php echo $message10; ?></td>
+  </tr>
+  <tr>
+   <td colspan="3" align="right" STYLE="padding:0px 8px 0px 0px;"><input type="submit" value="Send Details"></td>
+  </tr>
+</table>
+
+  <div class="imgpanel">
+  <p class="bodytext">
+
+  </div>
+  <div class="linkbox">
+   <p STYLE="bottom:0px; right:45px; position:absolute;"><font face="Verdana" size="2" color="#515151"><a href="index.html">Home</a> |</font> <font face="Verdana" size="2" color="#212121">Form</font></p>
+  </div>
+  
+</body>

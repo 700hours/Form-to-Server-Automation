@@ -1,0 +1,89 @@
+html { 
+	background: url(image/bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header{
+	height:40px;
+	width:70%;
+	top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.toptable{
+	margin-top:20px;
+	width:100%;
+	border-bottom: 1px solid #000;
+}
+.links{
+	width:150px;
+	border-right: 1px solid #000;
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:120%;
+}
+
+/****/
+
+.body{
+	width:70%;
+	height:444px;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.leftbox{
+	width:20%;
+	float:left;
+}
+.rightbox{
+	width:74%;
+	height:100%;
+	float:right;
+	border:1px solid black;
+	overflow:scroll;
+	background-image:url('image/gradient.png');
+}
+.contactbox{
+	width:74%;
+	height:100%;
+	float:right;
+	border:0px solid black;
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:80%;
+}
+.container{
+	padding:0px 12px 12px 12px;
+}
+
+/****/
+
+h1{
+	padding:0px;
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+	color:#1969A1;
+}
+.header {
+	color:#5B4CBE;
+	font-weight:bold;
+}
+.link {
+	color:#1969A1;
+}
+.bodytext{
+	margin:0px;
+	padding:9px 0px 0px 0px;
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:80%;
+	color:#080808;
+}
+.message{
+	font-family:"Arial", Helvetica, sans-serif;
+}
+
+a:link 		{	text-decoration: none;	color: #000; 	background: transparent; }
+a:visited 	{	text-decoration: none;	color: #000; 	background: transparent; }
+a:hover		{	text-decoration: none;	color: #0055DD; background: transparent; }
+a:active	{	text-decoration: none;	color: #0055DD;	background: transparent; }
