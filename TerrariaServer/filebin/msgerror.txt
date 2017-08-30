@@ -1,0 +1,11 @@
+There has been an error in the process.;
+Your server has not been submitted.;
+Email support if this is a recurring error.;
+You may have an error in your application names.;
+Another message is sent when the server is full.;
+;
+You may respond to this email directly.;
+Please include a few details about the form you completed so that we can track down your server.;
+-Server response from "Circle Prefect" servers;
+;
+;

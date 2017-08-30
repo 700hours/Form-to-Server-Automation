@@ -1,0 +1,26 @@
+[order to put arguments in]	[description]
+FileStream:
+args[0], 			updatetime: how often to download files in 1/10 millisecond
+args[1], 			logpath: where to log events
+args[2], 			queuepath: where to check whether or not system is queued; if queued don't download files
+args[3], 			serverIDpath: where the downloaded serverID file is located, don't include the name of the file, end with /
+args[4], 			spname: what the server parameters name is called (used in download path)
+args[5], 			sidname: what the serverID file is called (used in both read, and download path)
+args[6], 			locality: the web directory where the files are downloaded, end with a /
+args[7], 			tshockpath: the web directory where the tshockid download is located, include the file name
+args[8], 			tshockcmd: what the tshockid is named
+
+[order to put arguments in]	[description]
+FileRead: (in order)
+-ramlimit 	[####]: 	RAM floor argument for fileserver
+-logname 	[filename]: 	log events
+-queuename 	[filename]: 	file that signifies whether or not the queue is active
+-paramsname 	[filename]: 	serverparams file
+-idname 	[filename]: 	serverID file
+-resourcetxtname[filename]: 	points to where SysResource outputs ram information
+-sysresourcexe 	[exe]: 		points to SysResources
+-updatename	[filename]: 	points to update.bat
+-servelogname 	[filename]: 	points to FileServe log
+-fileservexe 	[exe]: 		points to fileserve.exe
+
+Start both fileread and filestream at the same time.

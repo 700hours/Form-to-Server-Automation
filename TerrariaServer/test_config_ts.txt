@@ -1,0 +1,11 @@
+maxplayers=8
+world="%UserProfile%\Documents\My Games\Terraria\Worlds\Dreamland.wld"
+port=8001
+password=
+motd=Public 1.2.0.2 Server
+worldrootpath="%UserProfile%\Documents\My Games\Terraria\Worlds\"
+secure=1
+lang=1
+upnp=0
+#npcstream=60
+priority=1

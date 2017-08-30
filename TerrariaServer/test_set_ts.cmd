@@ -1,0 +1,9 @@
+set port=8001
+set players=8
+set autocreate=1
+set worldname=Dreamland
+set password=
+set motd=Public 1.2.0.2 Server
+set lang=1
+set priority=1
+set name=test

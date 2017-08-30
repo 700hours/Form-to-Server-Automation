@@ -1,0 +1,1 @@
+set tshock=1

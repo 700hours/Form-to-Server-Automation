@@ -1,0 +1,12 @@
+Keep the three arguments as default to use ports 8001-8128
+
+arg[0]: 	read activeports? (to blacklist choosen ports, or active ports)
+-default or -read (yes, read)
+-noread (don't read)
+arg[1]: 	low number on the port range (default is 8001)
+-default, or above 1024
+arg[2]: 	high number on the port range (default is 8128)
+-default, or below 65535
+
+(obsolete) arg[3]: how many tries to select a non-blacklisted/active port before using senderror and exiting (default is 128)
+-default, above 0 or below 64511

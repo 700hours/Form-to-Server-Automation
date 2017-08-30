@@ -1,0 +1,23 @@
+You can find the necessary Terraria server files for TShock and Vanilla Terraria at \
+these sites:
+https://github.com/Pryaxis/TShock/releases
+http://terraria.org/ (the Dedicated Server link is at the very bottom)
+
+Until I create a ".reg" file that registers the location of the directory, 
+"TerrariaServer," keep "TerrariaServer" on your desktop or the internal directory 
+calls will fail
+
+To manually create a server based on the values in "chosenport.cmd" and 
+"serverparams.cmd" located in "filebin," without editing the file, run 
+"createserver.bat" or "createserver_tshock.bat;" these .bat will create the necessary
+files for starting and restarting the server in the future
+
+To run a specific server after it has been closed, simply run the "%name%_start.bat"
+file
+
+In order to change the values of a server, such as what world is used or the player
+limit, simply edit them in the "%name%_config.txt" file (%name%_config_ts.txt for
+TShock)
+
+If the TShock server program isn't booted up by the automation, simply run the 
+necessary "%name%_start_ts.bat"

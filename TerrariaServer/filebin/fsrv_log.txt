@@ -1,0 +1,29 @@
+20:52:00 PM 
+Processing serverID: WfGbTNxUSoYBoZ
+20:52:01 PM 
+Successful, starting server: WfGbTNxUSoYBoZ
+20:56:24 PM 
+Processing serverID: WfGbTNxUSoYBoZ
+20:56:24 PM 
+Successful, starting server: WfGbTNxUSoYBoZ
+21:11:20 PM 
+Processing serverID: WfGbTNxUSoYBoZ
+21:11:20 PM 
+Successful, starting server: WfGbTNxUSoYBoZ
+
+23:14:22 PM Processing serverID: WfGbTNxUSoYBoZ
+23:14:23 PM Successful, starting server: WfGbTNxUSoYBoZ
+23:15:17 PM Processing serverID: WfGbTNxUSoYBoZ
+23:15:18 PM Successful, starting server: WfGbTNxUSoYBoZ
+23:22:36 PM Successful, starting server: default
+23:23:42 PM Successful, starting server: default
+23:40:04 PM Successful, starting server: default
+23:44:29 PM Successful, starting server: default
+00:14:08 AM Successful, starting server: default
+00:23:24 AM Successful, starting server: default
+00:26:09 AM Successful, starting server: default
+00:46:10 AM Successful, starting server: default
+00:52:40 AM Successful, starting server: default
+00:55:10 AM Successful, starting server: default
+00:58:10 AM Successful, starting server: default
+11:18:27 AM Successful, starting server: default

@@ -1,0 +1,19 @@
+In order to get the right "serverparams.cmd," make sure your website php form outputs
+the values entered in the form to "serverparams.hmtl;" the programs read it and output
+to the necessary ".cmd" file
+
+Check the file, "check_tshock.cmd" to make sure it equals either 0 or 1; 
+if neither, and a server creation request has been made but wasn't completed in a 
+server startup, manually enter the desired # (either 0 or 1), then manually run 
+"update.bat"
+
+You can enter in the desired values in serverparams.cmd and serverid.cmd without
+running "FileRead.exe" or "FileStream.exe," then run "update.bat," to start the server
+creation process manually -- good for testing for incongruities
+
+Make sure the arguments in both "fileread_start.bat" and "filestream_start.bat" are in
+chronological order detailed in "fileapps_syntax.txt" or else the programs won't start
+
+In order to keep the ports from exceeding the range of values (unlikely anyway),
+keep a tab on "activeports.txt;" clear out the values of unused server ports every so
+often

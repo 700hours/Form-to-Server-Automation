@@ -1,0 +1,11 @@
+Your server has been completed, and installed.;
+Another email will contain the server details.;
+;
+If you have any questions, you may respond to this email directly.;
+Please include a few details about the form you completed so that we can track down your server.;
+-Server response from "Circle Prefect" servers;
+;
+;
+;
+;
+;

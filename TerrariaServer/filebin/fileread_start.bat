@@ -1,0 +1,2 @@
+cd "%userprofile%\desktop\TerrariaServer\filebin\"
+fileread -ramlimit 1024 -logname fr_log.txt -queuename queuecheck.txt -paramsname serverparams.cmd -idname serverid.cmd -resourcetxtname ramcheck.txt -sysresourcexe sysresourceoutput.exe -updatename update.bat -servelogname fsrv_log.txt -fileservexe FileServe.exe -paramsdlname serverparams.html
