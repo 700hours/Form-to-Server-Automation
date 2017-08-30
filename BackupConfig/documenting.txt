@@ -1,0 +1,13 @@
+Current format: a form will be filled out on the website, and place a file,
+"serverparams.cmd"
+"Update.bat" will be automated to delete the old serverparams, and download a new one.
+"senderror.bat" is intended to email the user. The user's email may in the serverparams. The current clause for checking for an error "%name%==default" is a placeholder.
+"sendservfull.bat" will email the user if available RAM is less than 1600.
+"randomport.exe" generates a unique port
+"sysresourceoutput.exe" outputs physical RAM left
+
+You're probably familiar with wget. Maybe blat?
+
+"Activeports.txt" and "chosenport.cmd" need to exist to avoid error, though they're created anyway.. just stalls.
+
+"createserver.bat" writes the server variable files, and starts the server for first use. "%name%_start.bat," "%name%_set.cmd", "%name%_config.txt" will use for migrate.
