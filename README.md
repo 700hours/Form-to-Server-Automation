@@ -14,3 +14,5 @@ And last but not least, until (if) I get the directories registered using a .reg
 
 # HTML Template Addition
 I've included some skeleton HTML files that I made based on the originals from my website. If you host this on a webhost, and direct the necessary arguments in the "filestream_start.bat" to your website url, "FileStream.exe" will download the files submitted through the form every so many seconds, and once it recognizes a new batch of files, it will start the server creation process etc. etc.
+
+You'll have to make sure to modify the "form.html" file in order to add the direct link of your "store.php." Also, if you want E-mail notifications on when a form is filled out, modify "store.php" to include the support E-mail address. Note that I have commented the proposed files for ease of editing.
